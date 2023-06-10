@@ -10,6 +10,11 @@ export default class BudgetTracker {
     // Load initial data from Local Storage
     this.load();
   }
+ 
+
+
+
+
 
   static html() {
     return `
@@ -141,3 +146,5 @@ export default class BudgetTracker {
     this.save();
   }
 }
+
+

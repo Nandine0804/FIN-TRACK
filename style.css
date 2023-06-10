@@ -1,89 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tilt+Prism&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 th,
 span,
 strong,
 i {
-  color: white;
+    color: white;
+}
+
+td span,
+td strong {
+    font-size: 30px;
 }
 
 select {
-  width: 15rem;
-  height: 40px;
-  margin-bottom: 0px;
+    width: 15rem;
+    height: 42px;
+    margin-bottom: 0px;
 }
 
 h5 {
-  margin-bottom: 10px;
-  color: white;
-  text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    text-align: left;
 }
 
 input {
-  outline: none;
-  width: 15rem;
-  height: 25px;
-  padding: 20px;
+    outline: none;
+    width: 15rem;
+    height: 25px;
+    padding: 20px;
 }
 
 button {
-  width: 80px;
-  height: 30px;
-  margin-top: 30px;
+    width: 80px;
+    height: 45px;
+    margin-top: 30px;
 }
 
 html {
-  background: url("back.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+    background: url("back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.new-entry {
+    width: 250px;
 }
 
 .budget-tracker {
-  padding: 50px 10px;
-  margin-left: 10%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+    padding: 50px 10px;
+    margin-left: 10%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 p span {
-  font: 700 4em/1 "Oswald", sans-serif;
-  letter-spacing: 0;
-  padding: 0.25em 0 0.325em;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-  /* Clip Background Image */
-  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
-  -webkit-background-clip: text;
-  background-clip: text;
-  /* Animate Background Image */
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 80s linear infinite;
-  /* Activate hardware acceleration for smoother animations */
-  -webkit-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  text-align: center;
-  margin-top: 30px;
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    text-align: center;
+    margin-top: 30px;
 }
 
-/* Animate Background Image */
+
+/* how to Animate Background Image */
 
 @-webkit-keyframes aitf {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
