@@ -51,6 +51,9 @@ html {
 .budget-tracker {
   padding: 50px 10px;
   margin-left: 10%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 p span {
