@@ -5,10 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FINANCE TRACKER</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <div class="container" id="app">
+        <div class="container_body">
+            <h1 class="container_topic">FINANCE TRACKER</h1>
+        </div>
+        <div class="container_budget">
+            <table class="con_budget_table">
+                <!-- <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th></th>
 
+                    </tr>
+                </thead> -->
+                <tbody class="con_budget_entries">
+                    <tr>
+                        <td>
+                            <h5>DATE</h5>
+                            <input class="input input-date" type="date" placeholder="date">
+                        </td>
+                        <td>
+                            <h5>DESC</h5>
+                            <input class="input input-description" type="text" placeholder="Add a Description.....">
+                        </td>
+                        <td>
+                            <h5>TYPE</h5>
+                            <select class="con_select">
+                                <option value="income">Income</option>
+                                <option value="expense">Expense</option>
+                            </select>
+                        </td>
+                        <td>
+                            <h5>AMT</h5>
+                            <input type="number" class="input input-amount" placeholder="Amount..">
+                        </td>
+                    </tr>
+
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td colspan="5">
+
+                            <button type="button" class="delete-entry">&#10005;</button>
+
+                            <button type="button" class="new-entry">NEW + </button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" class="con_budget_total">
+                            <strong>TOTAL: </strong>
+                            <span class="total">0.00</span><i>RS</i>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>
